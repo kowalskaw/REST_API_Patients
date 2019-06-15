@@ -2,6 +2,10 @@ import http.client
 import json
 
 
+# logowanie, usuwanie, reset endpointow(delete), do soboty, sprawozdanie zrobic,
+# raport, caly kod w pliku z raportem, komentarze w kodzie, prezentowanie endpointow, metody,
+# na endpointach, kody statuu, kncepty ze swiata rzeczyiwstego (resources)
+# pola naglowkowe! -> apllication JSON
 def print_response(response):
     print("Response: " + response.read().decode('utf-8') + '\n')
     # print("Status: " + str(response.status))
